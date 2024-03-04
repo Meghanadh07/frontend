@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login Page</title>
+  <link rel="stylesheet" href="st.css"> <!-- Assuming your CSS file is named "styles.css" -->
+</head>
+<body>
+
+<section class="forms-section">
+  <h1 class="section-title">LOGIN PAGE</h1>
+  <div class="forms">
+    <div class="form-wrapper is-active">
+      <button type="button" class="switcher switcher-login">
+        SIGN UP ADMIN
+        <span class="underline"></span>
+      </button>
+      <form class="form form-login">
+        <fieldset>
+          <legend>Please, enter your email and password for login.</legend>
+          <div class="input-block">
+            <label for="login-email">EMAIL</label>
+            <input id="login-email" type="email" required>
+          </div>
+          <div class="input-block">
+            <label for="login-password">PASSWORD</label>
+            <input id="login-password" type="password" required>
+          </div>
+          <div class="input-block">
+            <label for="login-confirm-password">CONFIRM PASSWORD</label>
+            <input id="login-confirm-password" type="password" required>
+          </div>
+        </fieldset>
+        <button type="submit" class="btn-login">SIGN UP</button>
+      </form>
+    </div>
+    <div class="form-wrapper">
+      <button type="button" class="switcher switcher-signup">
+        LOGIN
+        <span class="underline"></span>
+      </button>
+      <form class="form form-signup">
+        <fieldset>
+          <legend>Please, enter your email and password for sign up.</legend>
+          <div class="input-block">
+            <label for="signup-email">EMAIL</label>
+            <input id="signup-email" type="email" required>
+          </div>
+          <div class="input-block">
+            <label for="signup-password">PASSWORD</label>
+            <input id="signup-password" type="password" required>
+          </div>
+          <div class="input-block">
+            <label for="signup-confirm-password">CONFIRM PASSWORD</label>
+            <input id="signup-confirm-password" type="password" required>
+          </div>
+          <div class="form-check form-check-inline">
+            <label class="form-check-label" style="font-size: 14px; color: #a1b4b4;">
+              <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+              LOGIN AS ADMIN
+            </label>
+          </div>
+        </fieldset>
+        <button type="submit" class="btn-signup">LOGIN</button>
+      </form>
+    </div>
+  </div>
+</section>
+
+<script src="script.js"></script> <!-- Assuming your JavaScript file is named "script.js" -->
+</body>
+</html>
